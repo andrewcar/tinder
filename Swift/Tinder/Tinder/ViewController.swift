@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .white
+        
+        let profileImageView = ImageViewFactory.standardImageView(imageName: "jynerso", cornerRadius: 0, interactionEnabled: true, contentMode: .scaleAspectFill, sizeToFit: false).new
     }
 
     override func didReceiveMemoryWarning() {
