@@ -20,7 +20,7 @@ class BaseView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    fileprivate func setUpViews() {
+    func setUpViews() {
         // perform UI configuration in child classes
     }
 }
