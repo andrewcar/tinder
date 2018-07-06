@@ -12,6 +12,7 @@
 		4931376620F00D9C00DFA7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4931376520F00D9C00DFA7EB /* Assets.xcassets */; };
 		4931376920F00D9C00DFA7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4931376720F00D9C00DFA7EB /* LaunchScreen.storyboard */; };
 		4931377120F0210A00DFA7EB /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931377020F0210A00DFA7EB /* LabelFactory.swift */; };
+		4931377320F0263B00DFA7EB /* ImageViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931377220F0263B00DFA7EB /* ImageViewFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4931376820F00D9C00DFA7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4931376A20F00D9C00DFA7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4931377020F0210A00DFA7EB /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		4931377220F0263B00DFA7EB /* ImageViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				4931375E20F00D9A00DFA7EB /* AppDelegate.swift */,
 				4931376020F00D9A00DFA7EB /* ViewController.swift */,
 				4931377020F0210A00DFA7EB /* LabelFactory.swift */,
+				4931377220F0263B00DFA7EB /* ImageViewFactory.swift */,
 				4931376520F00D9C00DFA7EB /* Assets.xcassets */,
 				4931376720F00D9C00DFA7EB /* LaunchScreen.storyboard */,
 				4931376A20F00D9C00DFA7EB /* Info.plist */,
@@ -137,6 +140,7 @@
 				4931377120F0210A00DFA7EB /* LabelFactory.swift in Sources */,
 				4931376120F00D9A00DFA7EB /* ViewController.swift in Sources */,
 				4931375F20F00D9A00DFA7EB /* AppDelegate.swift in Sources */,
+				4931377320F0263B00DFA7EB /* ImageViewFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
