@@ -16,6 +16,7 @@
 		4931377520F02BD300DFA7EB /* ButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931377420F02BD300DFA7EB /* ButtonFactory.swift */; };
 		4931377720F02F7500DFA7EB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931377620F02F7500DFA7EB /* BaseView.swift */; };
 		4931377920F0315C00DFA7EB /* TinderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931377820F0315C00DFA7EB /* TinderCard.swift */; };
+		4931377B20F035F600DFA7EB /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931377A20F035F600DFA7EB /* ButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4931377420F02BD300DFA7EB /* ButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFactory.swift; sourceTree = "<group>"; };
 		4931377620F02F7500DFA7EB /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		4931377820F0315C00DFA7EB /* TinderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCard.swift; sourceTree = "<group>"; };
+		4931377A20F035F600DFA7EB /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				4931377420F02BD300DFA7EB /* ButtonFactory.swift */,
 				4931377220F0263B00DFA7EB /* ImageViewFactory.swift */,
 				4931377620F02F7500DFA7EB /* BaseView.swift */,
+				4931377A20F035F600DFA7EB /* ButtonsView.swift */,
 				4931377820F0315C00DFA7EB /* TinderCard.swift */,
 				4931376520F00D9C00DFA7EB /* Assets.xcassets */,
 				4931376720F00D9C00DFA7EB /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 				4931376120F00D9A00DFA7EB /* ViewController.swift in Sources */,
 				4931377720F02F7500DFA7EB /* BaseView.swift in Sources */,
 				4931375F20F00D9A00DFA7EB /* AppDelegate.swift in Sources */,
+				4931377B20F035F600DFA7EB /* ButtonsView.swift in Sources */,
 				4931377320F0263B00DFA7EB /* ImageViewFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
