@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     lazy var tinderCard: TinderCard = {
         let tc = TinderCard()
+        tc.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(swipeCard(sender:))))
         return tc
     }()
     
@@ -41,6 +42,10 @@ class ViewController: UIViewController {
             buttonsContainer.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             buttonsContainer.widthAnchor.constraint(equalTo: view.widthAnchor)
             ])
+    }
+    
+    @objc fileprivate func swipeCard(sender: UIPanGestureRecognizer) {
+        sender.swipeView(tinderCard)
     }
 }
 
