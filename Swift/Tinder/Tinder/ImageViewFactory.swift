@@ -9,17 +9,16 @@
 import UIKit
 
 enum ImageViewFactory {
-    case standardImageView(imageName: String, cornerRadius: CGFloat, interactionEnabled: Bool, contentMode: UIViewContentMode, sizeToFit: Bool)
+    case standardImageView(image: UIImage, cornerRadius: CGFloat, interactionEnabled: Bool, contentMode: UIViewContentMode, sizeToFit: Bool)
     
     var new: UIImageView {
         switch self {
-        case .standardImageView(let imageName, let cornerRadius, let interactionEnabled, let contentMode, let sizeToFit):
-            return createStandardImageView(imageName: imageName, cornerRadius: cornerRadius, interactionEnabled: interactionEnabled, contentMode: contentMode, sizeToFit: sizeToFit)
+        case .standardImageView(let image, let cornerRadius, let interactionEnabled, let contentMode, let sizeToFit):
+            return createStandardImageView(image: image, cornerRadius: cornerRadius, interactionEnabled: interactionEnabled, contentMode: contentMode, sizeToFit: sizeToFit)
         }
     }
     
-    func createStandardImageView(imageName: String, cornerRadius: CGFloat, interactionEnabled: Bool, contentMode: UIViewContentMode, sizeToFit: Bool) -> UIImageView {
-        let image = UIImage(imageLiteralResourceName: imageName)
+    func createStandardImageView(image: UIImage, cornerRadius: CGFloat, interactionEnabled: Bool, contentMode: UIViewContentMode, sizeToFit: Bool) -> UIImageView {
         let imageView = UIImageView(image: image)
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.layer.cornerRadius = cornerRadius

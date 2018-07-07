@@ -10,8 +10,8 @@ import UIKit
 
 class TinderCard: BaseView {
     
-    let profileImageView = ImageViewFactory.standardImageView(imageName: "jynerso", cornerRadius: 0, interactionEnabled: true, contentMode: .scaleAspectFill, sizeToFit: false).new
-    let friendsIconView = ImageViewFactory.standardImageView(imageName: "friendsIcon", cornerRadius: 0, interactionEnabled: false, contentMode: .scaleAspectFit, sizeToFit: false).new
+    let profileImageView = ImageViewFactory.standardImageView(image: #imageLiteral(resourceName: "jynerso"), cornerRadius: 0, interactionEnabled: true, contentMode: .scaleAspectFill, sizeToFit: false).new
+    let friendsIconView = ImageViewFactory.standardImageView(image: #imageLiteral(resourceName: "tinderIcon"), cornerRadius: 0, interactionEnabled: true, contentMode: .scaleAspectFill, sizeToFit: false).new
     let containerView: BaseView = {
         let v = BaseView()
         v.backgroundColor = .white
